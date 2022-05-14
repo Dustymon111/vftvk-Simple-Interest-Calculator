@@ -1,4 +1,52 @@
-body {background-color:tan;}
-h1{color:green;}
+@media screen {
+    
+}
+
+* {font-family:Arial, Helvetica, sans-serif;}
+
+body {background-color: black;}
+
+main {
+    background-color: white;
+    width: 35%;
+    height: 270px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {margin : 8px 10px;}
+
+select {
+    margin: 10px 10px;
+    width: 40px;
+}
 
 
+.range {display: inline-block;}
+
+input[type=number], select, button{
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+#rslt {
+    margin-left: 300px;
+}
