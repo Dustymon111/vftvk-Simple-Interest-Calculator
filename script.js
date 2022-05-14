@@ -12,7 +12,7 @@ function compute()
 
     if (amount < 1)
     {
-        alert("please input number more than 0");
+        alert("enter a positive number");
         amountIpt.focus()
     }
     else 
